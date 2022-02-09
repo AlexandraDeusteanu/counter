@@ -1,8 +1,17 @@
+
+
 span {
     display: block;
+    text-align: center;
 }
-div#container {
+
+.flex-container{
+    height: 100vh;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+.flex-item {
+    width: 20%;
 }
